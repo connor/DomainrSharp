@@ -9,8 +9,8 @@ namespace DomainrSharp
     {
         private HttpClient HttpClient { get; set; }
 
-        private const string QueryUrl = "http://domai.nr/api/json/search?q={0}";
-        private const string InfoUrl = "http://domai.nr/api/json/info?q={0}";
+        private const string QueryUrl = "https://domai.nr/api/json/search?q={0}";
+        private const string InfoUrl = "https://domai.nr/api/json/info?q={0}";
 
         public string ClientId { get; set; }
 
